@@ -1,0 +1,44 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.filter_container{
+    position: fixed;
+    width: 20%;
+    /* height: 70vh; */
+    height: max-content;
+    border: 2px solid red;
+
+
+}
+ul{
+    text-align: left;
+}
+.filter_container li{
+    list-style: none;
+}
+
+.Container{
+
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    justify-content: flex-end;
+    margin-left: 25%;
+    gap:20px;
+    /* margin:auto; */
+    padding: 20px;
+}
+.product-card{
+    width: 100%;
+    margin: auto;
+}
+.product-card img{
+    width: 100%;
+}
+.product-card>div{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin: 5px;
+}
